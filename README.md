@@ -14,6 +14,8 @@ To install the plugin perform the following steps:
 If you are interested in writing Paint.NET filetypes you might want to take a look at the following:
 
 Basic filetype plugin: http://www.codeproject.com/Articles/23898/Creating-Paint-NET-FileType-Plugins
+
 Filetype template that can provide options in the save dialogs of Paint.NET: http://forums.getpaint.net/index.php?/topic/26034-propertybasedfiletype-template-using-indirectui/
+
 More on IndirectUI: https://www.isimonbrown.co.uk/using-indirectui-rules/
  
