@@ -15,8 +15,10 @@ namespace PdnBlpFileType
     {
         public BlpFileType()
             : base("BLP image file",
-                FileTypeFlags.SupportsLoading,
-                new String[] { ".blp" })
+                   new FileTypeOptions()
+                   {
+                       LoadExtensions = new string[] { ".blp" },
+                   })
         {
         }
 
