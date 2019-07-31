@@ -24,8 +24,10 @@ namespace PdnBlpFileType
 
         protected override Document OnLoad(Stream input)
         {
-            BlpFile b = new BlpFile(input);
-            return Document.FromImage(b.GetBitmap(0));
+            using (var b = new BlpFile(input))
+            {
+                return Document.FromImage(b.GetBitmap(0));
+            }
         }
     }
 
