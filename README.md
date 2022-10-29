@@ -1,3 +1,8 @@
+> :warning: The last release contains a version of `System.Drawing.Common.dll` which contained a security vulnerability.
+> I tried upgrading, but I have not done .NET stuff in a long time and running into weird errors.
+> So past releases have been removed and project has been archived.
+
+
 BlpFiletype
 ===========
 
